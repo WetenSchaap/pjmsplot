@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pjmsplot"
+version = "0.1.0"
+description = "Personal plotting stuff"
+authors = ["Piet Swinkels <org@swnkls.nl>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.6.2"
+numpy = "^1.23.4"
+pandas = "^1.5.1"
+tol-colors = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
