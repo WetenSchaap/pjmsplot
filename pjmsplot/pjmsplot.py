@@ -16,10 +16,10 @@ Most important are:
     
     * Gives access to some small nice things, like extra line styles.
         >>> plt.plot(x,y,linestyle = linestyle_dict['loosely dashdotdotted'])
+
     * I would advise using tol-colors package to manage your colors.
 """
 
-import sys
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 
