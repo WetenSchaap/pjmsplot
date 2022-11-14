@@ -83,7 +83,13 @@ mpl.rcParams['ytick.major.width'] = LINEWIDTH
 # plt.rc('axes', prop_cycle= default_cycler)
 
 # Figure quality (in case of jpg/png/...)
-mpl.rcParams['figure.dpi'] = 300
+dpi = 300
+mpl.rcParams['figure.dpi'] = dpi
+mpl.rcParams['savefig.dpi'] = dpi # not sure if needed but cannot be too carefull
+
+# Bounding box size (tight is really the only sane option, why is this not always on?!)
+mpl.rcParams['savefig.bbox'] = "tight"
+mpl.rcParams['savefig.pad_inches'] = 0.1
 
 ############################
 #% USEFULL SETTINGS
