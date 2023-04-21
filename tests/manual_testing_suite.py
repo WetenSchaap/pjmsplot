@@ -1,8 +1,13 @@
 #%% Testing...
 # see if I did this packaging thing correctly.
 
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import numpy as np
 import matplotlib.pyplot as plt
+import pjmsplot
 
 def simpleplot():
     fig,ax = plt.subplots(1,1)

@@ -17,6 +17,7 @@ tol-colors = "^1.2.1"
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.6.0"
 ipykernel = "^6.17.0"
+pytest = "^7.3.1"
 
 [build-system]
 requires = ["poetry-core"]
