@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 matplotlib = "^3.6.2"
-numpy = "^*"
+numpy = "*"
 pandas = "*"
 tol-colors = "^1.2"
 
